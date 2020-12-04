@@ -17,4 +17,14 @@ Notes:
 
 def last(a, n):
     # Your code here
+    # edge cases for n > a, n is 0
+    if n > len(a):
+        return 'invalid'
+    if n == 0: 
+        return []
+    # solution
+    return a[-n:] 
 
+
+print(last([1, 2, 3, 4, 5], 1))
+print(last([1, 2, 3, 4, 5], 7))
