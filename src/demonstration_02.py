@@ -19,12 +19,12 @@ def add_indexes(numbers):
     # Your code here
     # find the indeces 
     # add the indeces to the int at that indeces
-    # start at 0
-    # pseudocode: for i in numbers: [0:i++]
+    # start at 0    
     # this increments the list but doesn't python add the value of the index to the value at the index
     # return [x+1 for x in numbers]
-    results = []
-    
+    results = []    
+    for i in numbers:
+        results.append(i+)
     return results
 
 
