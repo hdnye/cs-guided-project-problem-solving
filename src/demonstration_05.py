@@ -23,4 +23,8 @@ Notes:
 """
 def data_type(value):
     # Your code here
+    value = type(value) 
+    return str(value).lower()
 
+print(data_type([1, 2, 3, 4]))
+print(data_type({'key': "value"}))
