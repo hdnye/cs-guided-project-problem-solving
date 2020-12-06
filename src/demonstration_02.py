@@ -17,4 +17,16 @@ Notes:
 
 def add_indexes(numbers):
     # Your code here
+    # find the indeces 
+    # add the indeces to the int at that indeces
+    # start at 0    
+    # this increments the list but doesn't python add the value of the index to the value at the index
+    # return [x+1 for x in numbers]
+    results = []    
+    for i in numbers:
+        results.append(i+)
+    return results
 
+
+print(add_indexes([0, 0, 0, 0, 0]))
+print(add_indexes([1, 2, 3, 4, 5]))
