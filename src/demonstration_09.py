@@ -18,7 +18,6 @@ def get_middle(input_str):
     if len(input_str) == 1:
         return input_str
 
-
 print(get_middle("testing"))
 print(get_middle("A"))
 
