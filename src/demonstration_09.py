@@ -15,5 +15,13 @@ Examples:
 """
 def get_middle(input_str):
     # Your code here
+    if len(input_str) == 1:
+        return input_str
 
+print(get_middle("testing"))
+print(get_middle("A"))
 
+# edge cases: if str == 1: rtn str
+# split the word in 2. return the last letter from the 1st half
+# and 1stletter from the 2nd half
+# pseudocode: mid = input_str // 2

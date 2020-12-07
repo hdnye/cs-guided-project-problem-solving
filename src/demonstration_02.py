@@ -23,10 +23,11 @@ def add_indexes(numbers):
     # this increments the list but doesn't python add the value of the index to the value at the index
     # return [x+1 for x in numbers]
     results = []    
-    for i in numbers:
-        results.append(i+)
+    for i in range(len(numbers)):
+        results.append(numbers[i] + i)
     return results
 
 
 print(add_indexes([0, 0, 0, 0, 0]))
 print(add_indexes([1, 2, 3, 4, 5]))
+print(add_indexes([5, 4, 3, 2, 1]))

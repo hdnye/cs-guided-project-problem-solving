@@ -14,4 +14,19 @@ Examples:
 """
 def repeat_it(input_str):
     # Your code here
+    # empty list for results
+    results = []
+    # for loop to get each char
+    # +1 to increment
+    for char in input_str:
+        new_inp = input_str.find(char) + 1
+        # get each ind'l character
+        for i in char:
+            # multiply each char by it's increment from 1st loop
+            results.append(i * new_inp)
+    # join with - char & capitalize first letter
+    result = '-'.join(str(ele).capitalize() for ele in results)    
+    return result
 
+        
+print(repeat_it("abcd"))
