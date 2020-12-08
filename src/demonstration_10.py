@@ -17,5 +17,8 @@ the maximum number is first.
 """
 def max_and_min(input_str):
     # Your code here
+    n = [int(i) for i in input_str.split()]
+    return max(n), min(n)
 
-
+print(max_and_min("1 2 3 4 5"))
+print(max_and_min("1 2 -3 4 5"))
